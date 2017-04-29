@@ -42,8 +42,11 @@ const languageStrings = {
     'en-US': {
         translation: {
             FACTS: [
-                'In 1969, in response to the Cuban Missle Crisis, JFK declared',
-                'After his final game in 2016, Kobe told the team yes we did'
+                'In 1969, American Civil Rights Leader Martin Luther King gave this speech during the March on Washington For Jobs',
+                'President John F Kennedy delivered this famous remark during his inauguration address'
+            ],
+            AUDIO: ['<audio src="https://s3.amazonaws.com/arvarhack/mlk_speech_s3.mp3" />',
+                '<audio src="https://s3.amazonaws.com/arvarhack/jfkquotes3.mp3" />'
             ],
             SKILL_NAME: 'American Space Facts',
             GET_FACT_MESSAGE: "Here's your fact: ",
@@ -89,11 +92,12 @@ const handlers = {
         // Get a random space fact from the space facts list
         // Use this.t() to get corresponding language data
         const factArr = this.t('FACTS');
+        const audioArr = this.t('AUDIO');
         const factIndex = Math.floor(Math.random() * factArr.length);
         const randomFact = factArr[factIndex];
-
+        const audioLink = audioArr[factIndex];
         // Create speech output
-        const speechOutput = this.t('GET_FACT_MESSAGE') + randomFact;
+        const speechOutput = this.t('GET_FACT_MESSAGE') + randomFact + audioLink;
         this.emit(':tellWithCard', speechOutput, this.t('SKILL_NAME'), randomFact);
     },
     'AMAZON.HelpIntent': function () {
