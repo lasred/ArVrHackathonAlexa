@@ -43,10 +43,25 @@ const languageStrings = {
         translation: {
             FACTS: [
                 'In 1969, American Civil Rights Leader Martin Luther King gave this speech during the March on Washington For Jobs',
-                'President John F Kennedy delivered this famous remark during his inauguration address'
+                'President John F Kennedy delivered this famous remark during his inauguration address',
+                "This is an excerpt from President Franklin D. Roosevelt's first inaugural address",
+                'On December 8, 1941, the day after Japanese forces attacked the American military base at Pearl Harbor, Hawaii, President' +
+                'Franklin Roosevelt addressed Congress and asked for a Declaration of War with Japan',
+                'The United States, at the order of President Harry S. Truman, dropped nuclear weapons on the Japanese cities of Hiroshima and'+
+                'Nagasaki on August 6 and 9, 1945, respectively, during the final stage of World War II. President Truman addressed the nation after',
+                'This quote is from President Lyndon B. Johnson’s speech at the signing of the voting rights act in 1965. The voting rights act prohibited racial discrimination in the voting process.',
+                'This is President George W.Bush addressing the nation after The September 11 attacks, a series of four coordinated terrorist attacks' +
+                'by the Islamic terrorist group al-Qaeda on the United States on the morning of Tuesday, September 11, 2001 that killed 2996 people.',
+                'President Elect Barack Obama after he was the first African American elected as US American'
             ],
             AUDIO: ['<audio src="https://s3.amazonaws.com/arvarhack/mlk_speech_s3.mp3" />',
-                '<audio src="https://s3.amazonaws.com/arvarhack/jfkquotes3.mp3" />'
+                '<audio src="https://s3.amazonaws.com/arvarhack/jfkquotes3.mp3" />',
+                '<audio src="https://s3.amazonaws.com/arvarhack/fdrfear.mp3" />',
+                '<audio src="https://s3.amazonaws.com/arvarhack/waronjapans3.mp3" />',
+                '<audio src="https://s3.amazonaws.com/arvarhack/bombing.mp3" />',
+                '<audio src="https://s3.amazonaws.com/arvarhack/presidentjohnsonrightforallamericanstovotes3.mp3"/>',
+                '<audio src="https://s3.amazonaws.com/arvarhack/bush911s3.mp3" />',
+                '<audio src="https://s3.amazonaws.com/arvarhack/obamaElections3.mp3" />'
             ],
             SKILL_NAME: 'American Space Facts',
             GET_FACT_MESSAGE: "Here's your fact: ",
