@@ -63,6 +63,16 @@ const languageStrings = {
                 '<audio src="https://s3.amazonaws.com/arvarhack/bush911s3.mp3" />',
                 '<audio src="https://s3.amazonaws.com/arvarhack/obamaElections3.mp3" />'
             ],
+            BOOKS: [
+                'For more information about Martin Luther King junior, check out the book: Strength to love by martin luther king junior. Available for purchase on Amazon.com',
+                'For more information about John F Kennedey, check out the book: An Unfinished Life: John F. Kennedy, 1917 - 1963 by  Robert Dallek. Available for purchase on Amazon.com',
+                'For more information about Franklin D. Roosevelt, check out the book: F D R by Jean Edward Smith. Available for purchase on Amazon.com',
+                'For more information about Japan and world war two, check out the book: Dawn of the Rising Sun: Why Did Japan Declare War on the World? by Kenneth Friedman. Available for purchase on Amazon.com',
+                'For more information about the atomic bombngs of hiroshima, check out the book: The Atomic Bombings of Hiroshima and Nagasaki by The Manhattan Engineer District. Available for purchase on Amazon.com',
+                'For more information about president johnson and the voting rights act, check out  the book Lillian\'s Right to Vote: A Celebration of the Voting Rights Act of 1965 by  Jonah Winter. Available for purchase on Amazon.com',
+                'For more information about the september eleventh attacks, check out the book Nine, Ten: A September 11 Story by  Nora Raleigh Baskin. Available for purchase on Amazon.com',
+                'For more information about obama\'s two thousand and eight presidential vicory, check out the book Groundbreakers: How Obama\'s 2.2 Million Volunteers Transformed Campaigning in America by  Elizabeth McKenna and Hahrie Han. Available for purchase on Amazon.com'
+            ],
             SKILL_NAME: 'American Space Facts',
             GET_FACT_MESSAGE: "Here's your fact: ",
             HELP_MESSAGE: 'You can say tell me a space fact, or, you can say exit... What can I help you with?',
